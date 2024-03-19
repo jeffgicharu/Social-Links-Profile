@@ -28,7 +28,7 @@ Users should be able to:
 
 - Solution URL: [This is the GitHub of my solution](https://github.com/jeffgicharu/Social-Links-Profile)
 
--Live Site URL: [This is the live site of my solution]()
+-Live Site URL: [This is the live site of my solution](https://jeffgicharu.github.io/Social-Links-Profile/)
 
 ## My process
 
