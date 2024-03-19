@@ -8,6 +8,8 @@
     text-decoration: none;
 }
 
+/* || GENERAL STYLES */
+
 body {
     font-family: "Inter", sans-serif;
     background-color: hsl(0, 0%, 8%);
@@ -19,15 +21,15 @@ body {
 
 .profile-card {
     background: hsl(0, 0%, 12%);
-    max-width: 30vw;
+    max-width: 22rem;
     width: 100%;
-    height: auto;
+    height: 100%;
     border-radius: 1rem;
     padding: 2rem;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 3rem 0;
+    margin: 3rem auto;
 }
 
 .image {
@@ -93,4 +95,15 @@ body {
 .container .social:hover {
     background: hsl(75, 94%, 57%);
     color: hsl(0, 0%, 8%);
+}
+
+/* || MEDIA QUERIES */
+
+@media (max-width: 600px){
+    body{
+        padding: 1rem;
+    }
+    .text-info{
+        text-align: center;
+    }
 }
